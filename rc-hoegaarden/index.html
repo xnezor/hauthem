@@ -18,9 +18,18 @@ function makeAdr() {
 function makeCalendar() {
 var ul = document.getElementById("kalender");  
 var items = ul.getElementsByTagName("li");
+var testdate;
+var q = new Date();
+var m = q.getMonth()+1;
+var d = q.getDay();
+var y = q.getFullYear();
+var date = new Date(y,m,d);
 for (var i = 0; i < items.length; ++i) {
-console.log(items[i].id); 
-}
+  testdate = new date(items[i].id);
+  if {testdate < newdate) {
+    console.log(items[i].id); 
+    }
+  }
 }
 </script>
 </head>
@@ -42,11 +51,11 @@ console.log(items[i].id);
 Onze Repair Café sessies worden gehouden in het café van het Parochiecentrum Hoegaarden, telkens van 14u tot 17u, op:
 <ul id="kalender">
   <li id="2026-11-15">zondag 15 november 2026</li>
-  <li id ="2027-01-24">zondag 24 januari 2027</li>
-  <li>zondag 28 februari 2027</li>
-  <li>zondag 4 april 2027</li>
-  <li>zondag 2 mei 2027</li>
-  <li>zondag 30 mei 2027</li>
+  <li id="2027-01-24">zondag 24 januari 2027</li>
+  <li id="2027-02-28">zondag 28 februari 2027</li>
+  <li id="2027-04-04">zondag 4 april 2027</li>
+  <li id="2027-05-02">zondag 2 mei 2027</li>
+  <li id="2027-05-30">zondag 30 mei 2027</li>
 </ul>
 <p>In juli en augustus worden geen activiteiten georganiseerd.</p>
 <p>Het adres van het Parochiecentrum: Tiensestraat 54, 3320 Hoegaarden [<a href="https://www.openstreetmap.org/?mlat=50.777674&mlon=4.893170#map=19/50.777674/4.893170" target="_blank">map</a>].</p>
