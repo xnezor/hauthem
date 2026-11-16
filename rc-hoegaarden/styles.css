@@ -3,12 +3,13 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: #50008C;
-  max-width: 800px;
+  max-width: 720px;
 }
 hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
+  width: 700px;
 }
 .old {
   display: none;
