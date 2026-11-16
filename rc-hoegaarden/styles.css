@@ -11,7 +11,8 @@ hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
-  width:50%;text-align:left;margin-left:0;
+  width:50%;
+  margin: 0px auto;
 }
 .old {
   display: none;
