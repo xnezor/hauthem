@@ -39,14 +39,10 @@
   <h3>Contact informatie</h3>
 Voor inlichtingen en vragen kan je terecht op ons <span id="emtext"></span>
 <script>
-  var mytext2="x adres: inyz.be";
   var mytext = "656D61696C2061647265733A20696E666F407263686F656761617264656E2E6765";
   var str = '';
   for (var i = 0; i < mytext.length; i += 2)
-    str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
-  mytext = mytext.replace("x","em&#97;il");
-  mytext = mytext.replace("y","fo&#64;");
-  mytext = mytext.replace("z","rchoeg&#97;&#97;rden");
+    str += String.fromCharCode(parseInt(mystr.substr(i, 2), 16));
   document.getElementById("emtext").innerHTML = str;
 </script>
 </body>
