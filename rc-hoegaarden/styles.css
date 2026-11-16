@@ -11,6 +11,7 @@ hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
+  width: 100vw;
 }
 .old {
   display: none;
