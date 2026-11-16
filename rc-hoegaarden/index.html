@@ -16,8 +16,11 @@ function makeAdr() {
 }
 
 function makeCalendar() {
-var xx = document.getElementById("kalender").innerHTML;
-console.log(xx.length);
+var ul = document.getElementById("kalender");  
+var items = ul.getElementsByTagName("li");
+for (var i = 0; i < items.length; ++i) {
+console.log(items[i]); 
+}
 }
 </script>
 </head>
