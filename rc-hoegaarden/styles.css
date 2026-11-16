@@ -5,5 +5,7 @@ body {
   color: #50008C;
 }
 hr {
-  border: 1px solid #FA3C28;
+  background: #FA3C28;
+  height: 2px;
+  border: 0px;
 }
