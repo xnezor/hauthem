@@ -23,4 +23,5 @@ hr {
 .sec {
   background-color: rgba(250,60,40,0.1);
   border-radius: 25px;
+  padding: 25px;
 }
