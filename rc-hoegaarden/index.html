@@ -17,10 +17,10 @@ function makeAdr() {
 
 function makeCalendar() {
 var q = new Date();
-var m = q.getMonth()+1;
-var d = q.getDay();
-var y = q.getFullYear();
-var date = new Date(y,m,d);
+var mm = q.getMonth()+1;
+var dd = q.getDay();
+var yy = q.getFullYear();
+var date = new Date(yy,mm,dd);
 var testdate;
 var ul = document.getElementById("kalender");  
 var items = ul.getElementsByTagName("li");
