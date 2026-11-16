@@ -16,14 +16,14 @@ function makeAdr() {
 }
 
 function makeCalendar() {
-var ul = document.getElementById("kalender");  
-var items = ul.getElementsByTagName("li");
 var q = new Date();
 var m = q.getMonth()+1;
 var d = q.getDay();
 var y = q.getFullYear();
 var date = new Date(y,m,d);
 var testdate;
+var ul = document.getElementById("kalender");  
+var items = ul.getElementsByTagName("li");
 for (var i = 0; i < items.length; ++i) {
   testdate = new Date(items[i].id);
   if (testdate < date) {
