@@ -1,8 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 body {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
@@ -10,6 +5,7 @@ body {
   color: #50008C;
   padding: 10px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 hr {
   background: #FA3C28;
