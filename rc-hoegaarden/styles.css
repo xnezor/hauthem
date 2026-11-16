@@ -22,7 +22,9 @@ hr {
   margin-left: 25px;
 }
 .sec {
-  background-color: rgba(250,60,40,0.05);
+  background-color: rgba(255,120,80,0.05);
   border-radius: 25px;
   padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
