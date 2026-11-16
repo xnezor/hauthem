@@ -24,7 +24,7 @@ hr {
 .sec {
   background-color: #F0F0F0;
   border-radius: 25px;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 10px;
@@ -34,7 +34,7 @@ hr {
 }
 h3 {
   padding-top: 0px;
-  margin-left: -10px;
+  margin-left: -15px;
 }
 a:link, a:hover, a:visited {
   color: #FA3C28;
