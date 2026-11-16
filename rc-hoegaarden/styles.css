@@ -20,3 +20,7 @@ hr {
 .infotxt {
   margin-left: 25px;
 }
+.sec {
+  background: rgba(250,0,40,0.3);
+  border-radius: 25px;
+}
