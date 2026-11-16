@@ -5,8 +5,23 @@
   <title>Repair Café Hoegaarden</title>
   <link rel="icon" type="image/x-icon" href="/hauthem/rc-hoegaarden/favicon.ico">
   <link rel="stylesheet" href="styles.css">
+  
+<script>
+function makeAdr() {
+  var mytext = "656D61696C2061647265733A20696E666F407263686F656761617264656E2E6265";
+  var str = '';
+  for (var i = 0; i < mytext.length; i += 2)
+    str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
+  document.getElementById("emtext").innerHTML = str;
+}
+
+function makeCalendar() {
+var xx = document.getElementById("kalender").innerHTML;
+console.log(xx.length);
+}
+</script>
 </head>
-<body>
+<body onLoad="makeCalendar();makeAdr();">
 <div id="banner">
 <img src="logo.png" height="200px" title="Repair Café Hoegaarden">
 <hr>
@@ -22,7 +37,8 @@
 <h3>Waar en wanneer?</h3>
 <div class='infotxt'>
 Onze Repair Café sessies worden gehouden in het café van het Parochiecentrum Hoegaarden, telkens van 14u tot 17u, op:
-<ul>
+<ul id="kalender">
+  <li>zondag 15 november 2027</li>
   <li>zondag 24 januari 2027</li>
   <li>zondag 28 februari 2027</li>
   <li>zondag 4 april 2027</li>
@@ -63,13 +79,6 @@ Onze Repair Café sessies worden gehouden in het café van het Parochiecentrum H
 <div id="footer">
 <hr>
 </div>
- 
-<script>
-  var mytext = "656D61696C2061647265733A20696E666F407263686F656761617264656E2E6265";
-  var str = '';
-  for (var i = 0; i < mytext.length; i += 2)
-    str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
-  document.getElementById("emtext").innerHTML = str;
-</script>
+
 </body>
 </html>
