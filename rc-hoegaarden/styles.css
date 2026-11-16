@@ -4,14 +4,13 @@ body {
   line-height: 1.5;
   color: #50008C;
   padding: 10px;
-  margin: 0 auto;
-  border: 1px solid black;
+  wodth: 100vw;
+  box-sizing: border-box;
 }
 hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
-  width: 100vw;
 }
 .old {
   display: none;
