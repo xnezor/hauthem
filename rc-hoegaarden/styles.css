@@ -31,3 +31,7 @@ hr {
   margin-bottom: 10px;
   width: 100%;
 }
+
+a:link, a:hover, a:visited {
+  color: #FA3C28;
+}
