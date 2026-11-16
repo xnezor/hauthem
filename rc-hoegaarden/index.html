@@ -19,7 +19,7 @@ function makeCalendar() {
 var ul = document.getElementById("kalender");  
 var items = ul.getElementsByTagName("li");
 for (var i = 0; i < items.length; ++i) {
-console.log(items[i]); 
+console.log(items[i].id); 
 }
 }
 </script>
@@ -41,8 +41,8 @@ console.log(items[i]);
 <div class='infotxt'>
 Onze Repair Café sessies worden gehouden in het café van het Parochiecentrum Hoegaarden, telkens van 14u tot 17u, op:
 <ul id="kalender">
-  <li>zondag 15 november 2027</li>
-  <li>zondag 24 januari 2027</li>
+  <li id="2026-11-15">zondag 15 november 2026</li>
+  <li id ="2027-01-24">zondag 24 januari 2027</li>
   <li>zondag 28 februari 2027</li>
   <li>zondag 4 april 2027</li>
   <li>zondag 2 mei 2027</li>
