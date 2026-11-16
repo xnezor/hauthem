@@ -4,7 +4,7 @@ body, .banner {
   line-height: 1.5;
   color: #50008C;
   padding: 10px;
-  width: 90vw;
+  width: 95vw;
   box-sizing: border-box;
   margin-right: 25px;
 }
@@ -12,8 +12,8 @@ hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
-  width: 100vw;
-  margin: 0px auto;
+  width: 95vw;
+  margin: 0px;
 }
 .old {
   display: none;
@@ -22,9 +22,9 @@ hr {
   margin-left: 25px;
 }
 .sec {
-  background-color: rgba(255,120,80,0.05);
+  background-color: #DDDDDD;
   border-radius: 25px;
-  padding: 15px;
+  padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
