@@ -35,6 +35,7 @@ hr {
 h3 {
   padding-top: 0px;
   margin-left: -15px;
+  margin-top: 5px;
   border: 1px solid black;
 }
 a:link, a:hover, a:visited {
