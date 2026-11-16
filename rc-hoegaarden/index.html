@@ -25,7 +25,7 @@ var y = q.getFullYear();
 var date = new Date(y,m,d);
 var testdate;
 for (var i = 0; i < items.length; ++i) {
-  testdate = new date(items[i].id);
+  testdate = new Date(items[i].id);
   if (testdate < date) {
     console.log(items[i].id); 
     }
