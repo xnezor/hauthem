@@ -69,11 +69,12 @@ a:link, a:hover, a:visited {
   #rcimage {
     display: none;
   }
-  .parent, #banner, .sec {
+  .parent, #banner, .sec, #nieuws {
     display: block;
     float: none;
     margin-left: 0px;
-    margin-right: 0px
+    margin-right: 0px;
+    padding: 0px;
   }
   .sec2, #nieuws {
     width: 95%;
