@@ -47,3 +47,11 @@ h3 {
 a:link, a:hover, a:visited {
   color: #FA3C28;
 }
+@media (max-width: 800px) {
+  body {
+    font-width: 18pt;
+  }
+  .parent {
+    display: block;
+  }
+}
