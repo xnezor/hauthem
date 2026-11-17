@@ -69,7 +69,7 @@ a:link, a:hover, a:visited {
   #rcimage {
     display: none;
   }
-  .parent, #images {
+  .parent, #banner {
     display: block;
     float: none;
   }
