@@ -48,7 +48,7 @@ h3 {
 a:link, a:hover, a:visited {
   color: #FA3C28;
 }
-#img img {
+#img > img {
   height: 200px;
 }
 #nieuws {
@@ -63,7 +63,7 @@ a:link, a:hover, a:visited {
   body {
     font-size: 1.5rem;
   }
-  .parent, #nieuws, #img img {
+  .parent, #nieuws, #img > img {
     display: block;
     float: none;
   }
