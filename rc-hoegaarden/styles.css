@@ -1,6 +1,6 @@
 body, .banner {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 1.5;
   color: #50008C;
   padding: 10px;
@@ -53,7 +53,7 @@ a:link, a:hover, a:visited {
 }
 @media (max-width: 800px) {
   body {
-    font-width: 24pt;
+    font-size: 2rem;
     color: #FF0000;
   }
   .parent {
