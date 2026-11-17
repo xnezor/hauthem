@@ -78,4 +78,7 @@ a:link, a:hover, a:visited {
   .sec2, #nieuws {
     width: 95%;
   }
+  #banner {
+    padding: 0px;
+  }
 }
