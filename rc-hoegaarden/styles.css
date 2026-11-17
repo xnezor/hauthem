@@ -76,11 +76,11 @@ a:link, a:hover, a:visited {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .sec2, #nieuws {
+  .sec2, #nieuws, #banner {
+    margin-right: 0px;
     width: 95%;
   }
   #banner {
     padding: 0px;
-    margin-right: 0px;
   }
 }
