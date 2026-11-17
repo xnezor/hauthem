@@ -30,16 +30,12 @@ hr {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 20px;
-  width: 46%;
-  display: inline-block;
-}
-.sec02 {
   width: 45%;
+  display: inline-block;
 }
 .parent, #banner {
   display: flex;
   width: 100%;
-  border: 1px solid red;
 }
 #images {
   display: flex;
@@ -64,7 +60,7 @@ a:link, a:hover, a:visited {
   float: none;
 }
 @media (max-width: 800px) {
-  body, #banner {
+  body {
     font-size: 1.5rem;
   }
   #rcimage {
@@ -76,13 +72,10 @@ a:link, a:hover, a:visited {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .sec {
-    width: 95%;
+  .sec, #nieuws {
+    width: 100%;
   }
   #banner {
     padding: 0px;
-  }
-  #images {
-    margin: 0 auto;
   }
 }
