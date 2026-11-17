@@ -22,7 +22,7 @@ for (var i = 0; i < items.length; ++i) {
 
 function getCalendar() {
 fetch('kalender.txt')
-  .then((response) => response.json())
+  .then(response => response.text())
   .then((data) => document.getElementById("kalender").innerHTML = data.toString());
 }
 
