@@ -73,7 +73,7 @@ a:link, a:hover, a:visited {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .parent, #banner {
+  .parent, #banner, .sec {
     width: 100%;
   }
   #banner, .parent {
