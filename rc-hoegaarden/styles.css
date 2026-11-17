@@ -40,6 +40,9 @@ hr {
   display: flex;
   width: 100%;
 }
+#images {
+  display: flex;
+}
 h3 {
   padding-top: 0px;
   margin-left: -15px;
@@ -68,7 +71,7 @@ a:link, a:hover, a:visited {
   #rcimage {
     display: none;
   }
-  .parent, #nieuws, #rclogo {
+  .parent, #nieuws, #images {
     display: block;
     float: none;
   }
