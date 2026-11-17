@@ -66,6 +66,7 @@ a:link, a:hover, a:visited {
   }
   .parent, #nieuws, #img img {
     display: block;
+    float: none;
   }
   .sec2 {
     width: 95%;
