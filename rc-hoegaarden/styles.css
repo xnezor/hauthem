@@ -82,4 +82,7 @@ a:link, a:hover, a:visited {
   #banner {
     padding: 0px;
   }
+  #images {
+    margin: 0 auto;
+  }
 }
