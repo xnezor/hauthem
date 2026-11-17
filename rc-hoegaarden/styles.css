@@ -47,6 +47,10 @@ h3 {
 a:link, a:hover, a:visited {
   color: #FA3C28;
 }
+#rcimage, #rclogo {
+  float: left;
+  height: 200px;
+}
 @media (max-width: 800px) {
   body {
     font-width: 24pt;
@@ -57,5 +61,8 @@ a:link, a:hover, a:visited {
   }
   .sec2 {
     width: 100%;
+  }
+  #rcimage {
+    display: none
   }
 }
