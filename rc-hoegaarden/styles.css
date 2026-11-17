@@ -63,7 +63,7 @@ a:link, a:hover, a:visited {
   body {
     font-size: 1.5rem;
   }
-  .parent, #nieuws {
+  .parent, #nieuws, #rclogo {
     display: block;
   }
   .sec2 {
