@@ -54,4 +54,7 @@ a:link, a:hover, a:visited {
   .parent {
     display: block;
   }
+  .sec2 {
+    width: 100%;
+  }
 }
