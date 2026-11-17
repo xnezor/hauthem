@@ -36,7 +36,7 @@ hr {
 .sec2 {
   width: 45%;
 }
-.parent, #banner {
+.parent {
   display: flex;
   width: 100%;
 }
@@ -48,8 +48,9 @@ h3 {
 a:link, a:hover, a:visited {
   color: #FA3C28;
 }
-#img > img {
+#rclogo, #rcimage {
   height: 200px;
+  float: left;
 }
 #nieuws {
   border-radius: 10px;
