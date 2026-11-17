@@ -1,6 +1,6 @@
-  <li id="2026-11-15">zondag 15 november 2026</li>
-  <li id="2027-01-24">zondag 24 januari 2027</li>
-  <li id="2027-02-28">zondag 28 februari 2027</li>
-  <li id="2027-04-04">zondag 4 april 2027</li>
-  <li id="2027-05-02">zondag 2 mei 2027</li>
-  <li id="2027-05-30">zondag 30 mei 2027</li>
+  2026-11-15!zondag 15 november 2026
+  2027-01-24!zondag 24 januari 2027
+  2027-02-28!zondag 28 februari 2027
+  2027-04-04!zondag 4 april 2027
+  2027-05-02!zondag 2 mei 2027
+  2027-05-30!zondag 30 mei 2027
