@@ -76,7 +76,7 @@ a:link, a:hover, a:visited {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .sec2, #nieuws, #banner {
+  .sec2 {
     margin-right: 0px;
     width: 95%;
   }
