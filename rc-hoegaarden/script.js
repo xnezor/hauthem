@@ -26,7 +26,14 @@ fetch('kalender.txt')
   .then((data) => document.getElementById("kalender").innerHTML = data.toString());
 }
 
+function getNews() {
+fetch('nieuws.txt')
+  .then(response => response.text())
+  .then((data) => document.getElementById("nieuws").innerHTML = data.toString());
+}
+
 function doAll() {
+getNews();
 //getCalendar();
 makeCalendar();
 makeAdr();
