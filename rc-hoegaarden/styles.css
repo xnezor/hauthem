@@ -52,6 +52,16 @@ a:link, a:hover, a:visited {
   float: left;
   height: 200px;
 }
+#nieuws {
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #E0E0E0;
+}
+#nieuws p {
+  font-weight: bold;
+}
 @media (max-width: 800px) {
   body {
     font-size: 1.5rem;
