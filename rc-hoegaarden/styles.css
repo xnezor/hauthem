@@ -73,7 +73,7 @@ a:link, a:hover, a:visited {
     display: block;
     float: none;
   }
-  .sec2 {
+  .sec2, #nieuws {
     width: 95%;
   }
 }
