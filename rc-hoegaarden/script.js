@@ -21,13 +21,13 @@ for (var i = 0; i < items.length; ++i) {
 }
 
 function getCalendar() {
-fetch('kalender.txt')
+fetch('_kalender.txt')
   .then(response => response.text())
   .then((data) => document.getElementById("kalender").innerHTML = data.toString());
 }
 
 function getNews() {
-fetch('nieuws.txt')
+fetch('_nieuws.txt')
   .then(response => response.text())
   .then((data) => document.getElementById("nieuws").innerHTML = data.toString());
 }
