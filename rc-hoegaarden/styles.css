@@ -59,6 +59,7 @@ a:link, a:hover, a:visited {
   margin-bottom: 5px;  
   background-color: #E0E0E0;
   border: 1px solid black;
+  float: right;
 }
 @media (max-width: 800px) {
   body, #banner {
