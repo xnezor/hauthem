@@ -32,6 +32,9 @@ hr {
   width: 45%;
   display: inline-block;
 }
+.sec2 {
+  width: 100%;
+}
 .parent {
   display: flex;
 }
