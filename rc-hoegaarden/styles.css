@@ -24,10 +24,11 @@ hr {
   padding-left: 25px;
   padding-top: 2px;
   padding-bottom: 5px;
+  padding-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 0px;
-  width: 50%;
+  width: 45%;
   display: inline-block;
 }
 h3 {
