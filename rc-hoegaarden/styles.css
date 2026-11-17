@@ -58,7 +58,6 @@ a:link, a:hover, a:visited {
   margin-left: 10px;
   margin-bottom: 5px;  
   background-color: #E0E0E0;
-  float: right;
   display: inline;
 }
 @media (max-width: 800px) {
