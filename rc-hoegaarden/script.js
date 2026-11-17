@@ -24,11 +24,11 @@ function getCalendar() {
 fetch('kalender.txt')
   .then(response => response.text())
   .then((data) => document.getElementById("kalender").innerHTML = data.toString());
+  makeCalendar();
 }
 
 function doAll() {
 getCalendar();
 makeAdr();
-makeCalendar();
 }
     
