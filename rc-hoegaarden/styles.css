@@ -80,5 +80,6 @@ a:link, a:hover, a:visited {
   }
   #banner {
     padding: 0px;
+    margin-right: 0px;
   }
 }
