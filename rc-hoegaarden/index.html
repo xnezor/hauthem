@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Repair Café Hoegaarden</title>
   <link rel="icon" type="image/x-icon" href="/hauthem/rc-hoegaarden/favicon.ico">
   <link rel="stylesheet" href="styles.css">
@@ -9,18 +10,24 @@
 </head>
 <body onLoad="makeCalendar();makeAdr();">
 <div id="banner">
-<img src="logo.png" height="200px" title="Repair Café Hoegaarden"style="float:left;"><img src="banner.jpg" height="200px" style="float:left;">
-<hr>
+<div id='images'><img src="logo.png" title="Repair Café Hoegaarden" id='rclogo'><img src="banner.jpg" id='rcimage'></div>
+<div id="nieuws">
+<strong>nieuws</strong>
+<p>In december is er geen Repair Café gepland.</p>
+<p>Volg ons op Facebook:<br>@repair-cafe-hoegaarden</p>
 </div>
+</div>
+<hr>
 
-<div class='sec'>
+<div class='parent'>
+<div class='sec sec2'>
 <h3>Wat is een repair café?</h3>
 <p>Een Repair Café is een gratis, lokale bijeenkomst waar burgers samen met deskundige vrijwilligers kapotte spullen zoals kleding, elektrische apparaten en fietsen proberen te herstellen.</p>
 <p>Bezoekers nemen hun eigen stukke voorwerpen mee en krijgen hulp, advies en toegang tot gereedschap.</p>
 <p>Het initiatief heeft als hoofddoel de afvalberg te verkleinen, waardevolle reparatiekennis te behouden en de sociale banden in de buurt te versterken.</p>
 </div>
 
-<div class='sec'>
+<div class='sec sec2'>
 <h3>Waar en wanneer?</h3>
 Onze Repair Café sessies worden maandelijks gehouden in het café van het Parochiecentrum Hoegaarden, van 14u tot 17u, op:
 <ul id="kalender">
@@ -33,9 +40,10 @@ Onze Repair Café sessies worden maandelijks gehouden in het café van het Paroc
 </ul>
 <p>In juli en augustus worden geen activiteiten georganiseerd.</p>
 <p>Het adres van het Parochiecentrum: Tiensestraat 54, 3320 Hoegaarden [<a href="https://www.openstreetmap.org/?mlat=50.777674&mlon=4.893170#map=19/50.777674/4.893170" target="_blank">map</a>].</p>
-</div>
+</div></div>
 
-<div class='sec'>
+<div class='parent'>
+<div class='sec sec2'>
 <h3>Wat repareren we?</h3>
 <ul>
   <li>Kleine huishoudtoestellen (koffiezet, stofzuiger, keukenrobot, strijkijzer, naaimachine,...)</li>
@@ -48,28 +56,29 @@ Onze Repair Café sessies worden maandelijks gehouden in het café van het Paroc
 <p>Het is niet nodig om te reserveren, maar soms kan het nuttig zijn om vooraf per mail te verwittigen zodat we eventueel speciaal gereedschap kunnen voorzien.</p>
 </div>
 
-<div class='sec'>
+<div class='sec sec2'>
 <h3>Wat doen we niet?</h3>
 <ul>
   <li>Herstellingen aan huis</li>
   <li>Grote apparaten (vaatwasser, wasmachine, droogkast,...)</li>
   <li>Ingewikkelde apparaten</li>
 </ul>
-</div>
+</div></div>
 
-<div class='sec'>
+<div class='parent'>
+<div class='sec sec2'>
 <h3>Contact informatie</h3>
 <p>Voor inlichtingen en vragen kan je steeds terecht op ons <span id="emtext"></span></p>
 </div>
 
-<div class='sec'>
+<div class='sec sec2'>
 <h3>Nuttige links</h3>
 <ul>
   <li><a href="https://www.ifixit.com/">ifixit</a> - de grote online reparatiegids</li>
   <li><a href="https://www.repaircafe.org">Repair Café</a> - Repair Café website met veel info</li>
   <li><a href="https://repair.wiki">Repair Wiki</a> - vooral electronica: computers, printers,...</li>
 </ul>
-</div>
+</div></div>
 
 <div id="footer">
 <hr>
