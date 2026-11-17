@@ -20,7 +20,15 @@ for (var i = 0; i < items.length; ++i) {
   }
 }
 
-function getKalender() {
-    fetch('kalender.txt')
-        .then((response) => response.json())
-        .then((data) => document.getElementById("kalender").innerHTML = data.toString());
+function getCalendar() {
+fetch('kalender.txt')
+  .then((response) => response.json())
+  .then((data) => document.getElementById("kalender").innerHTML = data.toString());
+}
+
+function doAll() {
+getCalendar();
+makeAdr();
+makeCalendar();
+}
+    
