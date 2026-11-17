@@ -49,7 +49,7 @@ a:link, a:hover, a:visited {
 }
 @media (max-width: 800px) {
   body {
-    font-width: 18pt;
+    font-width: 24pt;
     color: #FF0000;
   }
   .parent {
