@@ -39,6 +39,7 @@ hr {
 .parent, #banner {
   display: flex;
   width: 100%;
+  border: 1px solid red;
 }
 #images {
   display: flex;
