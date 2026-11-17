@@ -61,7 +61,7 @@ a:link, a:hover, a:visited {
   display: inline;
 }
 @media (max-width: 800px) {
-  body {
+  body, #banner {
     font-size: 1.5rem;
   }
   #rcimage {
