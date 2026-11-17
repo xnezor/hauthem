@@ -56,6 +56,7 @@ a:link, a:hover, a:visited {
   border-radius: 10px;
   padding: 10px;
   margin-left: 10px;
+  margin-bottom: 5px;
   background-color: #E0E0E0;
   float: none;
 }
@@ -66,7 +67,7 @@ a:link, a:hover, a:visited {
   #rcimage {
     display: none;
   }
-  .parent, #banner, .sec, #nieuws {
+  .parent, .sec, #banner, #nieuws {
     display: block;
     float: none;
     margin-left: 0px;
@@ -75,7 +76,8 @@ a:link, a:hover, a:visited {
   .sec, #nieuws {
     width: 100%;
   }
-  #banner {
+  #banner, .parent {
     padding: 0px;
+    border: 1px solid black;
   }
 }
