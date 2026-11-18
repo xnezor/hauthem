@@ -7,9 +7,12 @@ function makeAdr() {
 }
 
 function makeCalendar(data) {
+  var outstr;
+  var line;
   console.log(data);
   data.split("\n").forEach(function (item) {
-    var line = item.split("!");
+    line = item.split("!");
+    outstr += "<li>" + line[1] + </li>\n";
     console.log(line[0] + "***" + line[1]);
 });
   return;
