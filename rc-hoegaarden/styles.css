@@ -61,7 +61,7 @@ a:link, a:hover, a:visited {
   background-colors: #E0E0E0;
   background-color: #FCCF80;
   float: none;
-  overflow-y: auto;
+  overflow-y: scroll;
   box-sizing: border-box;
 }
 @media (max-width: 800px) {
