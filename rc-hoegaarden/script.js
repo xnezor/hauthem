@@ -6,7 +6,9 @@ function makeAdr() {
   document.getElementById("emtext").innerHTML = str;
 }
 
-function makeCalendar() {
+function makeCalendar(data) {
+  console.log(data);
+  return;
 var date = new Date();
 date.setDate(date.getDate() - 1);
 var testdate;
@@ -22,8 +24,9 @@ for (var i = 0; i < items.length; ++i) {
 
 function getCalendar() {
 fetch('-kalender.txt')
+  fetch(file)
   .then(response => response.text())
-  .then (data => data.forEach(b => console.log(b.name)));
+  .then(data => makeCalendar(data));
 //  .then((data) => document.getElementById("kalender").innerHTML = data.toString());
 }
 
