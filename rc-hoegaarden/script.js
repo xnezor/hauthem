@@ -41,6 +41,5 @@ function doAll() {
 getNews();
 getCalendar();
 makeAdr("emtext1");
-makeAdr("emtext2");
 }
     
