@@ -76,7 +76,7 @@ a:link, a:hover, a:visited {
   .sec, #nieuws {
 	box-sizing: border-box;
 	margin: 0px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
   }
   #banner, .parent {
     padding: 0px;
