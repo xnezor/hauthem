@@ -16,7 +16,7 @@ function makeCalendar(mydata) {
     line = item.split("!");
     if (line[0].length > 0) {
       testdate = new Date(line[0]);
-      if (testdate < date) {
+      if (testdate > date) {
         outstr += "<li>" + line[1] + "</li>\n";
         console.log(line[0] + "***" + line[1]);
       }
