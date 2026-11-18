@@ -87,6 +87,7 @@ a:link, a:hover, a:visited {
 	height: auto;
 	max-height: 800px;
 	border-radius: 20px;
+	overflow-y: auto;
   }
   #banner, .parent {
     padding: 0px;
