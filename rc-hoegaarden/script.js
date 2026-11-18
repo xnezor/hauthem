@@ -24,7 +24,6 @@ for (var i = 0; i < items.length; ++i) {
 
 function getCalendar() {
 fetch('-kalender.txt')
-  fetch(file)
   .then(response => response.text())
   .then(data => makeCalendar(data));
 //  .then((data) => document.getElementById("kalender").innerHTML = data.toString());
