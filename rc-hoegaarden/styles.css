@@ -74,12 +74,6 @@ a:link, a:hover, a:visited {
   #rclogo {
 	margin: auto;
   }
-  .parent, .sec, #banner, #nieuws {
-    display: block;
-    float: none;
-	width: 100%;
-	box-sizing: content-box;
-  }
   .sec, #nieuws {
 	box-sizing: border-box;
 	margin: 0px;
@@ -88,6 +82,12 @@ a:link, a:hover, a:visited {
 	max-height: 800px;
 	border-radius: 20px;
 	overflow-y: auto;
+  }
+  .parent, .sec, #banner, #nieuws {
+    display: block;
+    float: none;
+	width: 100%;
+	box-sizing: content-box;
   }
   #banner, .parent {
     padding: 0px;
