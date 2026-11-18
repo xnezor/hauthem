@@ -9,13 +9,13 @@ function makeAdr() {
 function makeCalendar(mydata) {
   var outstr = "";
   var line;
-  var re = new RegExp("^\d{4}[./-]\d{2}[./-]\d{2}$");
+  const regex = /^\d{4}[./-]\d{2}[./-]\d{2}$/;
   var date = new Date();
   date.setDate(date.getDate() - 1);
   var testdate;
   mydata.split("\n").forEach(function (item) {
     line = item.split("!");
-    if (re.test(line[0]))  {
+    if (regex.test(line[0]))  {
       testdate = new Date(line[0]);
       if (testdate > date) {
         outstr += "<li>" + line[1] + "</li>\n";
