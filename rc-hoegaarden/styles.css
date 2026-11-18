@@ -62,7 +62,7 @@ a:link, a:hover, a:visited {
   background-color: #FCCF80;
   float: none;
   overflow-y: scroll;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 @media (max-width: 800px) {
   body {
@@ -88,6 +88,7 @@ a:link, a:hover, a:visited {
 	overflow-y: auto;
 	border-radius: 20px;
 	box-sizing: border-box;
+	width: 95%;
   }
   #banner, .parent {
     padding: 0px;
