@@ -47,6 +47,8 @@ a:link, a:hover, a:visited {
 #rclogo, #rcimage {
   height: 200px;
   float: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 #nieuws {
   border-radius: 10px;
