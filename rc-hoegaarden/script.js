@@ -9,16 +9,12 @@ function makeAdr() {
 function makeCalendar(mydata) {
   var outstr = "";
   var line;
-  //const regex = /^\d{4}[./-]\d{2}[./-]\d{2}$/;
-  
-  const regex = /^\d{4}/;
-  console.log(regex.test("1234-56987"));
+  const regex = /^\d{4}[./-]\d{2}[./-]\d{2}$/;
   var date = new Date();
   date.setDate(date.getDate() - 1);
   var testdate;
   mydata.split("\n").forEach(function (item) {
     line = item.split("!");
-    console.log(line[0] + " " + regex.test(line[0]));
     if (regex.test(line[0].replace(/\s/g,"")))  {
       testdate = new Date(line[0]);
       if (testdate > date) {
@@ -26,15 +22,13 @@ function makeCalendar(mydata) {
       }
     }
   });
-  console.log(outstr);
-  document.getElementById("kalender").innerHTML = outstr;
+  return outstr;
 }
 
 function getCalendar() {
 fetch('-kalender.txt')
   .then(response => response.text())
-  .then(data => makeCalendar(data));
-//  .then((data) => document.getElementById("kalender").innerHTML = data.toString());
+  .then(data => document.getElementById("kalender").innerHTML = makeCalendar(data));
 }
 
 function getNews() {
@@ -46,7 +40,6 @@ fetch('-nieuws.txt')
 function doAll() {
 getNews();
 getCalendar();
-//makeCalendar();
 makeAdr();
 }
     
