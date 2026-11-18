@@ -23,7 +23,8 @@ for (var i = 0; i < items.length; ++i) {
 function getCalendar() {
 fetch('-kalender.txt')
   .then(response => response.text())
-  .then((data) => document.getElementById("kalender").innerHTML = data.toString());
+  .then data.forEach(b => console.log(b.name));
+//  .then((data) => document.getElementById("kalender").innerHTML = data.toString());
 }
 
 function getNews() {
@@ -34,7 +35,7 @@ fetch('-nieuws.txt')
 
 function doAll() {
 getNews();
-//getCalendar();
+getCalendar();
 makeCalendar();
 makeAdr();
 }
