@@ -38,7 +38,7 @@ fetch('-nieuws.txt')
 
 function doAll() {
 getNews();
-//getCalendar();
+getCalendar();
 makeCalendar();
 makeAdr();
 }
