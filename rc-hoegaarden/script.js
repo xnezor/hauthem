@@ -8,6 +8,9 @@ function makeAdr() {
 
 function makeCalendar(data) {
   console.log(data);
+  data.split("\n").forEach(function (item) {
+    console.log(item);
+});
   return;
 var date = new Date();
 date.setDate(date.getDate() - 1);
@@ -38,7 +41,7 @@ fetch('-nieuws.txt')
 function doAll() {
 getNews();
 getCalendar();
-makeCalendar();
+//makeCalendar();
 makeAdr();
 }
     
