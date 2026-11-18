@@ -9,12 +9,20 @@ function makeAdr() {
 function makeCalendar(data) {
   var outstr;
   var line;
-  console.log(data);
+  var date = new Date();
+  date.setDate(date.getDate() - 1);
+  var testdate;
   data.split("\n").forEach(function (item) {
     line = item.split("!");
-    outstr += "<li>" + line[1] + </li>\n";
-    console.log(line[0] + "***" + line[1]);
-});
+    if (line[0].length > 0) {
+      testdate = new Date(line[0]);
+      if (testdate < date) {
+        outstr += "<li>" + line[1] + </li>\n";
+        console.log(line[0] + "***" + line[1]);
+      }
+    }
+  });
+  document.getElementById("kalender").innerHTML = outstr;
   return;
 var date = new Date();
 date.setDate(date.getDate() - 1);
