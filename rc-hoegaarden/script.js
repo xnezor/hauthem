@@ -7,14 +7,15 @@ function makeAdr() {
 }
 
 function makeCalendar(mydata) {
-  var outstr;
+  var outstr = "";
   var line;
+  var re = new RegExp("^\d{4}[./-]\d{2}[./-]\d{2}$");
   var date = new Date();
   date.setDate(date.getDate() - 1);
   var testdate;
   mydata.split("\n").forEach(function (item) {
     line = item.split("!");
-    if (line[0].length > 0) {
+    if (re.test(line[0]))  {
       testdate = new Date(line[0]);
       if (testdate > date) {
         outstr += "<li>" + line[1] + "</li>\n";
@@ -23,18 +24,6 @@ function makeCalendar(mydata) {
   });
   console.log(outstr);
   document.getElementById("kalender").innerHTML = outstr;
-  return;
-var date = new Date();
-date.setDate(date.getDate() - 1);
-var testdate;
-var ul = document.getElementById("kalender");  
-var items = ul.getElementsByTagName("li");
-for (var i = 0; i < items.length; ++i) {
-  testdate = new Date(items[i].id);
-  if (testdate < date) {
-    document.getElementById(items[i].id).classList.add("old");
-    }
-  }
 }
 
 function getCalendar() {
