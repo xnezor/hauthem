@@ -19,7 +19,7 @@ function makeCalendar(mydata) {
   mydata.split("\n").forEach(function (item) {
     line = item.split("!");
     console.log(line[0] + " " + regex.test(line[0]));
-    if (regex.test(line[0]))  {
+    if (regex.test(line[0].replace(/\s/g,"")))  {
       testdate = new Date(line[0]);
       if (testdate > date) {
         outstr += "<li>" + line[1] + "</li>\n";
