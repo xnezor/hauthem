@@ -9,7 +9,9 @@ function makeAdr() {
 function makeCalendar(mydata) {
   var outstr = "";
   var line;
-  const regex = /^\d{4}[./-]\d{2}[./-]\d{2}$/;
+  //const regex = /^\d{4}[./-]\d{2}[./-]\d{2}$/;
+  
+  const regex = /^\d{4}/;
   var date = new Date();
   date.setDate(date.getDate() - 1);
   var testdate;
