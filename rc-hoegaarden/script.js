@@ -1,9 +1,9 @@
-function makeAdr() {
+function makeAdr(myid) {
   var mytext = "656D61696C2061647265733A20696E666F407263686F656761617264656E2E6265";
   var str = '';
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
-  document.getElementById("emtext").innerHTML = str;
+  document.getElementById(myid).innerHTML = str;
 }
 
 function makeCalendar(mydata) {
@@ -40,6 +40,7 @@ fetch('-nieuws.txt')
 function doAll() {
 getNews();
 getCalendar();
-makeAdr();
+makeAdr("emtext1");
+makeAdr("emtext2");
 }
     
