@@ -9,7 +9,8 @@ function makeAdr() {
 function makeCalendar(data) {
   console.log(data);
   data.split("\n").forEach(function (item) {
-    console.log(item);
+    var line = item.split("!");
+    console.log(line[0] + "***" + line[1]);
 });
   return;
 var date = new Date();
