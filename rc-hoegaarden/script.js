@@ -6,18 +6,18 @@ function makeAdr() {
   document.getElementById("emtext").innerHTML = str;
 }
 
-function makeCalendar(data) {
+function makeCalendar(mydata) {
   var outstr;
   var line;
   var date = new Date();
   date.setDate(date.getDate() - 1);
   var testdate;
-  data.split("\n").forEach(function (item) {
+  mydata.split("\n").forEach(function (item) {
     line = item.split("!");
     if (line[0].length > 0) {
       testdate = new Date(line[0]);
       if (testdate < date) {
-        outstr += "<li>" + line[1] + </li>\n";
+        outstr += "<li>" + line[1] + "</li>\n";
         console.log(line[0] + "***" + line[1]);
       }
     }
