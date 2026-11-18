@@ -18,10 +18,10 @@ function makeCalendar(mydata) {
       testdate = new Date(line[0]);
       if (testdate > date) {
         outstr += "<li>" + line[1] + "</li>\n";
-        console.log(line[0] + "***" + line[1]);
       }
     }
   });
+  console.log(outstr);
   document.getElementById("kalender").innerHTML = outstr;
   return;
 var date = new Date();
