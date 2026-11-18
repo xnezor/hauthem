@@ -15,9 +15,6 @@ hr {
   width: 100%;
   margin: 0px;
 }
-.old {
-  display: none;
-}
 .sec {
   background-color: #F0F0F0;
   border-radius: 25px;
@@ -74,14 +71,12 @@ a:link, a:hover, a:visited {
   .parent, .sec, #banner, #nieuws {
     display: block;
     float: none;
-  }
-  .parent, .sec, #banner, #nieuws {
-    width: 100%;
+	width: 100%;
   }
   .sec, #nieuws {
 	box-sizing: border-box;
 	margin: 0px;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
   }
   #banner, .parent {
     padding: 0px;
