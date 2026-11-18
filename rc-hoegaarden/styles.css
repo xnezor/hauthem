@@ -77,7 +77,8 @@ a:link, a:hover, a:visited {
   .parent, .sec, #banner, #nieuws {
     display: block;
     float: none;
-	width: 98%;
+	width: 100%;
+	box-sizing: content-box;
   }
   .sec, #nieuws {
 	box-sizing: border-box;
@@ -87,7 +88,6 @@ a:link, a:hover, a:visited {
 	max-height: 800px;
 	overflow-y: auto;
 	border-radius: 20px;
-	box-sizing: content-box;
   }
   #banner, .parent {
     padding: 0px;
